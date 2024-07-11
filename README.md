@@ -1,6 +1,6 @@
 # Face Parsing Toolbox
 
-Face parsing toolbox is built on top of [PyTorch](https://pytorch.org/). This toolbox provides a simple and efficient way to perform face parsing on images.
+This toolbox provides a simple and efficient way to perform face parsing/segmentation on images.
 
 ## Installation
 
