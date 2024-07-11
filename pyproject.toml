@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "face-parsing-toolbox"
+version = "0.1.0"
+description = "A toolbox for face parsing/segmentation."
+authors = ["XavierJiezou <xuechaozou@foxmail.com>"]
+readme = "README.md"
+packages = [{include = "face_parsing_toolbox"}]
+repository = "https://github.com/XavierJiezou/face-parsing-toolbox"
+keywords = ["face parsing", "face segmentation", "toolbox"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fire = "^0.6.0"
+rich = "^13.7.1"
+torch = "^2.3.1"
+torchvision = "^0.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
